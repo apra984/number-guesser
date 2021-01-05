@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Akash Prakash\\source\\repos\\ConsoleApp1\\ConsoleApp1\\NumberGuesser.csproj": {}
+    "C:\\Users\\Akash Prakash\\Source\\Repos\\number-guesser\\ConsoleApp1\\NumberGuesser.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Akash Prakash\\source\\repos\\ConsoleApp1\\ConsoleApp1\\NumberGuesser.csproj": {
+    "C:\\Users\\Akash Prakash\\Source\\Repos\\number-guesser\\ConsoleApp1\\NumberGuesser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Akash Prakash\\source\\repos\\ConsoleApp1\\ConsoleApp1\\NumberGuesser.csproj",
+        "projectUniqueName": "C:\\Users\\Akash Prakash\\Source\\Repos\\number-guesser\\ConsoleApp1\\NumberGuesser.csproj",
         "projectName": "NumberGuesser",
-        "projectPath": "C:\\Users\\Akash Prakash\\source\\repos\\ConsoleApp1\\ConsoleApp1\\NumberGuesser.csproj",
+        "projectPath": "C:\\Users\\Akash Prakash\\Source\\Repos\\number-guesser\\ConsoleApp1\\NumberGuesser.csproj",
         "packagesPath": "C:\\Users\\Akash Prakash\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Akash Prakash\\source\\repos\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\Akash Prakash\\Source\\Repos\\number-guesser\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Akash Prakash\\AppData\\Roaming\\NuGet\\NuGet.Config",

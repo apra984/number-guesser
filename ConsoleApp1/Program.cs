@@ -6,12 +6,9 @@ namespace NumberGuesser
     {
         static void Main(string[] args)
         {
-
-            displayAppInfo();
-            greetUser();
-
+            DisplayAppInfo();
+            GreetUser();
             Random random = new Random();
-
             int correctGuess = random.Next(1, 10);
             int validGuess;
             bool isGameOver = false;
@@ -32,11 +29,11 @@ namespace NumberGuesser
                 if (validGuess != correctGuess)
                 {
                     Console.WriteLine("You guessed {0}", playerGuess);
-                    printMessage(ConsoleColor.DarkRed, "That is incorrect! Try again..");
+                    PrintMessage(ConsoleColor.DarkRed, "That is incorrect! Try again..");
                 }
                 else
                 {
-                    printMessage(ConsoleColor.Green, "You got it. Good job !");
+                    PrintMessage(ConsoleColor.Green, "You got it. Good job !");
                     Console.WriteLine("Play again? [Y] or [N]");
                     string response = Console.ReadLine().ToUpper();
 
@@ -55,21 +52,20 @@ namespace NumberGuesser
                     {
                         return;
                     }
-
                 }
 
             }
 
         }
 
-        static void printMessage(ConsoleColor color, string message)
+        static void PrintMessage(ConsoleColor color, string message)
         {
             Console.ForegroundColor = color;
             Console.WriteLine(message);
             Console.ResetColor();
         }
 
-        static void displayAppInfo()
+        static void DisplayAppInfo()
         {
             string appName = "Number Guesser";
             string appVersion = "1.0.0";
@@ -80,14 +76,12 @@ namespace NumberGuesser
             Console.ResetColor();
         }
 
-        static void greetUser()
+        static void GreetUser()
         {
             Console.WriteLine("What is your name?");
             string input = Console.ReadLine();
             Console.WriteLine("Hello {0}, lets play!", input);
         }
-
-
 
     }
 }
